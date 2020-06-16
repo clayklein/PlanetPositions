@@ -4,7 +4,7 @@ import astropy.time
 import matplotlib.pyplot as plt
 
 
-# Defining a function to make graphing the data simpler
+# Defining a function to parse the CSV data and find the current positions
 def set_position(planet, color, file, inner=True):
 
     data = csv.reader(open(file))
