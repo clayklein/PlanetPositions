@@ -2,7 +2,7 @@
 
 This is a simple program that graphs the current positions of the planets in the Solar System.
 
-The CSV data in the folder is good until July 4, 2024; after that time, the data must be updated from JPL's website (which should be available [here](https://ssd.jpl.nasa.gov/?horizons)). Data columns should have the following order: Julian day, standard date, x-coordinate, y-coordinate, and z-coordinate.
+The CSV data in the folder is good until July 4, 2024; after that time, the data must be updated from JPL's website (which should be available [here](https://ssd.jpl.nasa.gov/?horizons)). Data columns should have the following order: Julian day, standard date, x-coordinate, and y-coordinate.
 
 As an example, when the program is run, it will output a graph that looks like the one below, but it will of course be updated for the current day (assuming your computer does have the correct date).
 
